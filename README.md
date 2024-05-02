@@ -12,16 +12,17 @@ Demonstrativo de API REST com PYTHON
 - Docker compose;
 
 # Docker
-docker compose up -d flask_db
+'docker compose up -d flask_db'
 
 -- check with
-docker compose logs
+'''docker compose logs
 docker ps -a
 
 docker compose build
+'''
 
--- check wit
-docker images
+check with
+'docker images'
 
-docker compose up flask_app
+'docker compose up flask_app'
 
